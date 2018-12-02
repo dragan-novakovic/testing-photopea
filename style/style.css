@@ -8,15 +8,31 @@
 }
 
 header {
+    position: relative;
+}
+
+.header-bg-layer {
+    position: absolute;
+    top: 0;
     width: 1222px;
     height: 990px;
     border-radius: 12px;
     box-shadow: 0px 10px 30px rgba(0,0,0,0.03);
-    background-color: #7b32d5;
+    background-image: url("../assets/george-bohunicky-118985.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+
+.header-gradient {
+    position: absolute;
+    width: 1222px;
+    height: 550px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.03);
+    background-image: linear-gradient(to right, transparent , #7b32d5);
     border: 2px solid #f4f4f4;
+    z-index: 5;
     
 }
 
-.header-bg-layer {
-    background-image: url("../assets/george-bohunicky-118985.png");
-}
