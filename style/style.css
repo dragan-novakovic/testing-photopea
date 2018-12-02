@@ -14,9 +14,8 @@ header {
 .header-bg-layer {
     position: absolute;
     top: 0;
-    width: 1222px;
+    width: 100vw;
     height: 990px;
-    border-radius: 12px;
     box-shadow: 0px 10px 30px rgba(0,0,0,0.03);
     background-image: url("../assets/george-bohunicky-118985.png");
     background-repeat: no-repeat;
@@ -25,14 +24,27 @@ header {
 }
 
 .header-gradient {
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    width: 1222px;
-    height: 550px;
-    border-radius: 12px;
+    width: 100vw;
+    height: 580px;
     box-shadow: 0px 10px 30px rgba(0,0,0,0.03);
     background-image: linear-gradient(to right, transparent , #7b32d5);
-    border: 2px solid #f4f4f4;
-    z-index: 5;
-    
+    z-index: 5;   
+}
+
+.menu-container {
+    margin-right: 110px;
+    align-self: flex-end;
+}
+
+.menu-container svg  {
+    margin-top: 50px;
+    transform: rotateY(180deg);
+}
+
+.menu-container path  {
+    transform: scale(0.5);
 }
 
