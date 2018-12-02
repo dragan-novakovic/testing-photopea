@@ -48,3 +48,7 @@ header {
     transform: scale(0.5);
 }
 
+.info-box {
+    align-self: flex-end;
+}
+
