@@ -1,13 +1,22 @@
-html {
+*, html {
     margin: 0;
     padding: 0;
 }
 
-.jumbotron {
+:root {
+    --main-bg-color: #7b32d5
+}
+
+header {
     width: 1222px;
     height: 990px;
     border-radius: 12px;
     box-shadow: 0px 10px 30px rgba(0,0,0,0.03);
     background-color: #7b32d5;
     border: 2px solid #f4f4f4;
+    
+}
+
+.header-bg-layer {
+    background-image: url("../assets/george-bohunicky-118985.png");
 }
