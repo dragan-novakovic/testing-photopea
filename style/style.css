@@ -1,0 +1,13 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    width: 1222px;
+    height: 990px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.03);
+    background-color: #7b32d5;
+    border: 2px solid #f4f4f4;
+}
